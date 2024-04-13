@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 4%;
+}
+.divBtn{
+    text-align: center;
+    margin-top: 4%;      
+}
+.btn{
+    padding: 6px 20px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: aqua;
+}
+.btnSim{
+    background-color: rgb(5, 221, 5);
+    color: #fff;
+    letter-spacing: 1px;
+}
+.btnNao{
+    background-color: red;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.msgRedirec{
+    text-align: center;
+    margin-top: 4%;
+    color: rgb(9, 186, 0);
+    display: none;
+}
+.gridContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 120px 120px 120px;
+    padding: 4px;
+    gap: 6px;
+    margin-top: 50px;
+    display: none;
+}
+.gridBtn{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.campoContribuinte{
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+.iptContribuinte{
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 4px;
+    display: none;
+}
+.msgValidacao{
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}

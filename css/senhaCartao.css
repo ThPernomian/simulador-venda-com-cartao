@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn{
+    padding: 6px 20px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: aqua;
+}
+.gridContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 120px 120px 120px;
+    padding: 4px;
+    gap: 6px;
+    margin-top: 50px;
+}
+.gridBtn{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.h3Senha{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.msgValidacao{
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+.msgErro{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
